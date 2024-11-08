@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Jaycee, Schoen, (312) 775-5131, 132)

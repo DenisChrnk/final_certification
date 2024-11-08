@@ -1,0 +1,1 @@
+insert into company("name", description) values (Ortiz, Ortiz and Ortiz, Beauty, Clothing & Outdoors)

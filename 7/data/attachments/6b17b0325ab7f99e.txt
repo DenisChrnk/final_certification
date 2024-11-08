@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Bobbie, Wunsch, 1-332-542-9497, 790)

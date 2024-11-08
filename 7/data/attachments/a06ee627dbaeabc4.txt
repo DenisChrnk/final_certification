@@ -1,0 +1,1 @@
+insert into company("name", description) values (Roob Group, Clothing, Shoes & Tools)

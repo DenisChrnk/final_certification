@@ -1,0 +1,1 @@
+insert into company("name", description) values (Crist, Crist and Crist, Electronics, Games & Tools)

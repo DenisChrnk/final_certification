@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Rodolfo, Powlowski, 029.438.6038, 202)

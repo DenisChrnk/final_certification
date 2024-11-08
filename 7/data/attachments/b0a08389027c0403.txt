@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Osbaldo, McClure, 663-769-3285, 190)

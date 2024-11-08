@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Abelardo, Sporer, 247.746.1654, 799)

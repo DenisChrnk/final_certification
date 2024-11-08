@@ -1,0 +1,1 @@
+insert into company("name", description) values (Greenholt, Greenholt and Greenholt, Automotive, Games & Movies)
