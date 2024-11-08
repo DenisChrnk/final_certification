@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Nathen, Davis, 1-955-663-8554, 814)

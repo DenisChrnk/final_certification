@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Sandra, Kunde, 286-223-6224, 206)

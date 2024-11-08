@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Retta, Rutherford, (015) 116-3388, 823)
