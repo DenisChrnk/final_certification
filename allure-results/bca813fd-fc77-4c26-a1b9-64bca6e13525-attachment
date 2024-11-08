@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Chyna, Maggio, 1-697-119-5485, 207)

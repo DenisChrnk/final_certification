@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Kathryn, Farrell, (294) 938-6561, 214)

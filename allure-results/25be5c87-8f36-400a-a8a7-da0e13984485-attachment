@@ -1,0 +1,1 @@
+insert into company("name", description) values (Mueller, Mueller and Mueller, Electronics & Home)
