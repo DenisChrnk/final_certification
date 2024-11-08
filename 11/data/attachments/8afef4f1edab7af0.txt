@@ -1,0 +1,1 @@
+insert into company("name", description) values (Medhurst, Medhurst and Medhurst, Baby, Grocery & Home)

@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Norbert, Kozey, 223-949-8949, 859)

@@ -1,0 +1,1 @@
+insert into company("name", description) values (Gleichner-Gleichner, Clothing, Sports & Toys)
