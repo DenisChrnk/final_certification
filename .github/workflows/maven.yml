@@ -41,17 +41,17 @@ jobs:
         uses: simple-elf/allure-report-action@v1.7
         if: always()
         with:
-         gh_pages: gh-pages
-         allure_history: allure-history
-         allure_results: allure-results
+          gh_pages: gh-pages
+          allure_history: allure-history
+          allure_results: allure-results
 
       - name: Publish test report
         uses: peaceiris/actions-gh-pages@v3
         if: always()
         with:
-         github_token: ${{ secrets.GITHUB_TOKEN }}
-         publish_branch: gh-pages
-         publish_dir: allure-history
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-history
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     # - name: Update dependency graph
