@@ -10,11 +10,11 @@ name: Запуск АТ
 
 on:
   workflow_dispatch:
-    inputs:
-      environment:
-        description: 'Branch'
-        required: true
-        default: 'master'
+#    inputs:
+#      environment:
+#        description: 'Branch'
+#        required: true
+#        default: 'master'
   push:
     branches: [ "master" ]
 
