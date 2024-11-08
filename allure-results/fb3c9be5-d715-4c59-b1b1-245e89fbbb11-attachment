@@ -1,1 +1,0 @@
-insert into employee(first_name, last_name, phone, company_id) values (Syble, Reynolds, 109.337.5781, 221)

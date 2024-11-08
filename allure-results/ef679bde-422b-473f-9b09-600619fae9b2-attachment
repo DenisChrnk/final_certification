@@ -1,1 +1,0 @@
-insert into employee(first_name, last_name, phone, company_id) values (Travon, Rohan, 155.509.3652, 194)

@@ -1,1 +1,0 @@
-insert into employee(first_name, last_name, phone, company_id) values (Hillary, Pfeffer, 421.161.0484, 130)

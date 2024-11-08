@@ -1,1 +1,0 @@
-select count(*) from employee where company_id = 203
