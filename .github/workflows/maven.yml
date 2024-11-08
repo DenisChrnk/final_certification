@@ -12,14 +12,11 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: 'Environment to deploy to'
+        description: 'Branch'
         required: true
         default: 'master'
-      version:
-        description: 'Application version'
-        required: true
-#  push:
-#    branches: [ "master" ]
+  push:
+    branches: [ "master" ]
 
 jobs:
   build:
