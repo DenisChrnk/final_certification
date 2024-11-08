@@ -64,6 +64,7 @@ public class SwagLabsTests {
         Configuration.baseUrl = properties.getProperty("selenide.baseURI");
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         Configuration.timeout = 10000L;
+        Configuration.headless = true;
     }
 
     private static Stream<String> getLogins() {
