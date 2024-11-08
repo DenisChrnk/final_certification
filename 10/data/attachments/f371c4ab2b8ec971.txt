@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Amalia, Marks, 756-782-8533, 824)

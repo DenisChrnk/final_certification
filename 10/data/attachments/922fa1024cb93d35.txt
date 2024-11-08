@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Aliya, Kertzmann, (945) 979-3852, 829)

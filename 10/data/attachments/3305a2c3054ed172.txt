@@ -1,0 +1,1 @@
+insert into company("name", description) values (O'Keefe, O'Keefe and O'Keefe, Games, Kids & Music)

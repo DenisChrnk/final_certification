@@ -1,0 +1,1 @@
+insert into company("name", description) values (Bashirian, Bashirian and Bashirian, Computers, Garden & Shoes)

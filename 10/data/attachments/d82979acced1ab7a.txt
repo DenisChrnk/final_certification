@@ -1,0 +1,1 @@
+insert into company("name", description) values (Hintz, Hintz and Hintz, Electronics & Jewelry)
