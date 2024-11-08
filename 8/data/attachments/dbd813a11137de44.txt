@@ -1,0 +1,1 @@
+insert into company("name", description) values (Upton, Upton and Upton, Computers, Grocery & Toys)

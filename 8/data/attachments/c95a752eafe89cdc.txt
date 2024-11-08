@@ -1,0 +1,1 @@
+insert into employee(is_active, first_name, last_name, middle_name, phone, email, avatar_url, company_id) values (true, Bob, Bob, Bob, 1-214-535-4521, stanley.bergstrom@hotmail.com, www.mathilde-hansen.info, 806)

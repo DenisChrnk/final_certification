@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Hadley, Dietrich, 495-737-7411, 800)
