@@ -1,0 +1,1 @@
+insert into company("name", description) values (Schaden, Schaden and Schaden, Automotive, Computers & Outdoors)

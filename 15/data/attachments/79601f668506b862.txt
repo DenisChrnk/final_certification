@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Monserrat, Bruen, 512.730.2021, 4623)

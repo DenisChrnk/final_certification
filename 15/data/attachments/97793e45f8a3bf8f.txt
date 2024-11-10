@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Thora, Kreiger, 347-253-3771, 4623)
