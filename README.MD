@@ -4,6 +4,7 @@
 
 ### Автотесты написаны с использванием:
 - Java
+- Maven
 - jUnit5
 - RestAssured
 - JDBC
