@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Piper, Lynch, 486-047-1204, 4599)

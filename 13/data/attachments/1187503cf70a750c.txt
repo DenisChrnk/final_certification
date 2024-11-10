@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Dana, Buckridge, (104) 427-6400, 4604)

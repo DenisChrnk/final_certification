@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Griffin, Douglas, (178) 290-3488, 4601)

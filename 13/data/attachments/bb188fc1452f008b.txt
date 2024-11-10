@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Chase, Ziemann, 1-161-434-6772, 4599)
