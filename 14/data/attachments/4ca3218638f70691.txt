@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Torrance, Will, (933) 607-7012, 4618)

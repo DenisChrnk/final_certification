@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Brycen, Cartwright, 724-850-2337, 4611)

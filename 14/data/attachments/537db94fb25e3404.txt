@@ -1,0 +1,1 @@
+insert into company("name", description) values (Williamson, Williamson and Williamson, Automotive & Electronics)

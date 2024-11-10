@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Immanuel, Turcotte, (023) 624-9906, 4622)
