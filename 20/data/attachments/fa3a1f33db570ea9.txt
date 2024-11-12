@@ -1,0 +1,1 @@
+insert into company("name", description) values (Cruickshank-Cruickshank, Grocery, Sports & Tools)

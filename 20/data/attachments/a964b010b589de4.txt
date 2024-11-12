@@ -1,0 +1,1 @@
+insert into company("name", description) values (West Inc, Baby, Beauty & Computers)
