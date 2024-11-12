@@ -1,0 +1,1 @@
+insert into company("name", description) values (Koelpin-Koelpin, Books & Garden)

@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Kristian, Sauer, (282) 400-9155, 5446)

@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Vaughn, Kerluke, (273) 443-1336, 5440)
