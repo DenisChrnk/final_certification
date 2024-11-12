@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Jennings, Rippin, (604) 462-9717, 5379)

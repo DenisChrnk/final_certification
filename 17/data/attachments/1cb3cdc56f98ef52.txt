@@ -1,0 +1,1 @@
+insert into company("name", description) values (Moen and Sons, Music, Tools & Toys)

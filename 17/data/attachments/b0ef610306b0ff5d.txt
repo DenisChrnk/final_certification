@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Anabelle, Durgan, (133) 643-1843, 5382)
