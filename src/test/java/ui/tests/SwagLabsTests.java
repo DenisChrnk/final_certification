@@ -56,10 +56,10 @@ public class SwagLabsTests {
         properties = new Properties();
         properties.load(new FileInputStream(appConfigPath));
 
-        standardUserLogin = properties.getProperty("standard_user_login");
-        lockedUserLogin = properties.getProperty("locked_user_login");
-        glitchUserLogin = properties.getProperty("glitch_user_login");
-        usersPassword = properties.getProperty("users_password");
+        standardUserLogin = properties.getProperty("ui.standard_user_login");
+        lockedUserLogin = properties.getProperty("ui.locked_user_login");
+        glitchUserLogin = properties.getProperty("ui.glitch_user_login");
+        usersPassword = properties.getProperty("ui.users_password");
 
         Configuration.baseUrl = properties.getProperty("selenide.baseURI");
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
