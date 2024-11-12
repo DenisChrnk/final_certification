@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Wilburn, Kertzmann, 276.002.4986, 5392)

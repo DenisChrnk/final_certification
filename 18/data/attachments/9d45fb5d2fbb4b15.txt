@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Allison, Herzog, 1-699-540-9012, 5394)

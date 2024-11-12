@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Graciela, Jenkins, (518) 583-5299, 5398)

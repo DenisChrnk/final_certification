@@ -1,0 +1,1 @@
+insert into company("name", description) values (Kautzer, Kautzer and Kautzer, Baby, Jewelry & Outdoors)
