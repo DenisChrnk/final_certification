@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Ariane, Becker, 1-076-741-5243, 5413)

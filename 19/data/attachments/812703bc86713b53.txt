@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Cortney, Pfeffer, 940.301.5069, 5418)

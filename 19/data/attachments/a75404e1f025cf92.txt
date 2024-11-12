@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Isadore, Kuphal, 579.424.3554, 5411)
