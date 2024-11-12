@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Jaden, Schultz, 988-989-7345, 5374)

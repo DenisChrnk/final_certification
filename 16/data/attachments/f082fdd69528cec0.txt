@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Tyler, Olson, 949-910-5526, 5365)

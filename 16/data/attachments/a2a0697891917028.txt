@@ -1,0 +1,1 @@
+insert into company("name", description) values (Renner, Renner and Renner, Movies & Music)

@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Fred, Kuvalis, 026-807-9973, 5367)

@@ -1,0 +1,1 @@
+insert into company("name", description) values (Botsford, Botsford and Botsford, Books & Computers)

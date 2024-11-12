@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (George, Waelchi, 1-321-021-2409, 5363)

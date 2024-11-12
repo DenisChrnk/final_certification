@@ -1,0 +1,35 @@
+<div>POST to https://x-clients-be.onrender.com/employee</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;id&quot;: 602428762,
+    &quot;firstName&quot;: &quot;Dino&quot;,
+    &quot;lastName&quot;: &quot;Sipes&quot;,
+    &quot;companyId&quot;: 5364,
+    &quot;phone&quot;: &quot;1-629-262-8488&quot;,
+    &quot;isActive&quot;: true
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>x-client-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MzEzOTk3NzcsImV4cCI6MTczMTQwMDY3N30.6gNdCx5v-AJPRDMiZWIXhdWKjWi3z1utbuqUhJiAMcc</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://x-clients-be.onrender.com/employee&#39; -H &#39;Accept: */*&#39; -H &#39;x-client-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MzEzOTk3NzcsImV4cCI6MTczMTQwMDY3N30.6gNdCx5v-AJPRDMiZWIXhdWKjWi3z1utbuqUhJiAMcc&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;id&quot;: 602428762,
+    &quot;firstName&quot;: &quot;Dino&quot;,
+    &quot;lastName&quot;: &quot;Sipes&quot;,
+    &quot;companyId&quot;: 5364,
+    &quot;phone&quot;: &quot;1-629-262-8488&quot;,
+    &quot;isActive&quot;: true
+}&#39;
+</div>
