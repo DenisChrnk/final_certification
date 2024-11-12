@@ -1,0 +1,1 @@
+insert into company("name", description) values (Bogisich-Bogisich, Computers, Kids & Tools)

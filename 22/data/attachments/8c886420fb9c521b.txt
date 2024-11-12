@@ -1,0 +1,1 @@
+insert into company("name", description) values (Wolf Inc, Automotive, Computers & Toys)

@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Freddy, Blick, (741) 146-6151, 5447)

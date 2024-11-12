@@ -1,0 +1,1 @@
+insert into company("name", description) values (Sporer, Sporer and Sporer, Baby, Books & Music)

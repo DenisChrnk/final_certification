@@ -1,0 +1,1 @@
+insert into company("name", description) values (Lindgren-Lindgren, Clothing, Movies & Tools)

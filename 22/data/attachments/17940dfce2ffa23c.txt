@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Charley, Koss, 040.950.3279, 5454)

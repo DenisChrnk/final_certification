@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Burdette, Skiles, 1-947-328-7585, 5451)
