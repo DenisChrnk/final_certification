@@ -1,0 +1,1 @@
+insert into company("name", description) values (Reichel, Reichel and Reichel, Electronics, Movies & Outdoors)

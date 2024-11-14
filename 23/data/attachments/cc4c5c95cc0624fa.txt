@@ -1,0 +1,1 @@
+insert into company("name", description) values (Littel and Sons, Clothing, Jewelry & Kids)

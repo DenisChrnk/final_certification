@@ -1,0 +1,1 @@
+insert into company("name", description) values (Lockman LLC, Jewelry)

@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Yesenia, O'Conner, 350.161.9058, 6007)
