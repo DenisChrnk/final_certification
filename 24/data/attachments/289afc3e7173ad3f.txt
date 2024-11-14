@@ -1,0 +1,1 @@
+insert into employee(first_name, last_name, phone, company_id) values (Buford, Stamm, 543.143.7919, 6012)

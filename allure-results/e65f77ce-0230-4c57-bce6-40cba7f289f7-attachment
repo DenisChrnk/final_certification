@@ -1,1 +1,0 @@
-insert into employee(first_name, last_name, phone, company_id) values (Ernesto, Sawayn, 1-168-098-0764, 131)
