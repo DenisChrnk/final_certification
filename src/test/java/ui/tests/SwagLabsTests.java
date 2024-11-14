@@ -1,8 +1,6 @@
 package ui.tests;
 
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.ElementsCollection;
-import com.codeborne.selenide.SelenideElement;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.BeforeAll;
@@ -29,17 +27,11 @@ import java.util.stream.Stream;
 
 import static com.codeborne.selenide.CollectionCondition.size;
 import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
 @ExtendWith({LoginPageResolver.class, MainPageResolver.class, CartPageResolver.class, CheckoutPageResolver.class})
 
 public class SwagLabsTests {
-    private final SelenideElement logoutButton = $("#logout_sidebar_link");
-    private final SelenideElement headerH3 = $("h3");
-    private final ElementsCollection cartItem = $$(".cart_item");
-    private final SelenideElement totalLabel = $(".summary_total_label");
-    private final SelenideElement completeHeader = $(".complete-header");
 
     static String standardUserLogin;
     static String lockedUserLogin;
@@ -79,7 +71,7 @@ public class SwagLabsTests {
         loginPage.openShop();
         loginPage.auth(standardUserLogin, usersPassword);
         mainPage.openMenu();
-       step("Проверить, что есть кнопака \"Logout\"", () -> logoutButton.shouldBe(text(textToBe)));
+       step("Проверить, что есть кнопака \"Logout\"", () -> mainPage.logoutButton.shouldBe(text(textToBe)));
     }
 
     @Test
@@ -89,7 +81,7 @@ public class SwagLabsTests {
 
         loginPage.openShop();
         loginPage.auth(lockedUserLogin, usersPassword);
-        step("Проверить, что на странице отображен текст " + textToBe, () -> headerH3.shouldHave(text(textToBe)));
+        step("Проверить, что на странице отображен текст " + textToBe, () -> loginPage.headerH3.shouldHave(text(textToBe)));
     }
 
     @ParameterizedTest
@@ -103,12 +95,12 @@ public class SwagLabsTests {
         loginPage.auth(logins, usersPassword);
         mainPage.addToBasket(new ArrayList<>(List.of("Sauce Labs Backpack", "Sauce Labs Bolt T-Shirt", "Sauce Labs Onesie")));
         mainPage.openBasket();
-        step("Проверить, что в корзине добавлено 3 товара", () -> cartItem.shouldHave(size(3)));
+        step("Проверить, что в корзине добавлено 3 товара", () -> cartPage.cartItem.shouldHave(size(3)));
         cartPage.clickCheckoutButton();
         checkoutPage.fillingForm("Bob", "Bob","345636");
         checkoutPage.clickContinue();
-        step("Проверить, что сумма заказа равна $58.29", () -> totalLabel.shouldHave(text(totalPriceToBe)));
+        step("Проверить, что сумма заказа равна $58.29", () -> checkoutPage.totalLabel.shouldHave(text(totalPriceToBe)));
         checkoutPage.clickFinish();
-        step("Проверить, что на странице отображен текст " + textToBe, () -> completeHeader.shouldHave(text(textToBe)));
+        step("Проверить, что на странице отображен текст " + textToBe, () -> checkoutPage.completeHeader.shouldHave(text(textToBe)));
     }
 }

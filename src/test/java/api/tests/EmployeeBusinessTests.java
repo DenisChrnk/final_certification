@@ -13,7 +13,6 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import api.extendClasses.*;
 import api.helpers.DbHelper;
 import api.models.CreateEmployeeRequest;
 import api.models.UpdateEmployeeRequest;
@@ -33,10 +32,6 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 @ExtendWith({ApiTestHelperResolver.class, AuthResolver.class, DbHelperResolver.class, InsertCompanyResolver.class})
 public class EmployeeBusinessTests {
-
-//    static AllureRestAssured allureFilter = new AllureRestAssured()
-//            .setRequestAttachmentName("Here is what we asked")
-//            .setResponseAttachmentName("Here is what we got");
 
     @BeforeAll
     public static void setUp() throws IOException {

@@ -11,6 +11,8 @@ public class CheckoutPage {
     private final SelenideElement postalCodeInput = $("#postal-code");
     private final SelenideElement continueButton = $("#continue");
     private final SelenideElement finishButton = $("#finish");
+    public final SelenideElement totalLabel = $(".summary_total_label");
+    public final SelenideElement completeHeader = $(".complete-header");
 
     @Step("Заполнить форму с личной информацией: имя {firstName}, фамилия {lastName}, почтовый индекс {postalCode}")
     public void fillingForm(String firstName, String lastName, String postalCode) {

@@ -11,6 +11,7 @@ public class LoginPage {
     private final SelenideElement login = $("#user-name");
     private final SelenideElement password = $("#password");
     private final SelenideElement loginButton = $("#login-button");
+    public final SelenideElement headerH3 = $("h3");
 
     @Step("Открыть магазин \"Swag Labs\"")
     public void openShop(){

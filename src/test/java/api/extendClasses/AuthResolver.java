@@ -46,5 +46,4 @@ public class AuthResolver implements ParameterResolver {
                 .post()
                 .body().as(AuthResponse.class).userToken();
     }
-
 }

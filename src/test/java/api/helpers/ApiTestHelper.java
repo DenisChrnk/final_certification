@@ -42,7 +42,6 @@ public class ApiTestHelper {
                 .body().as(AuthResponse.class);
     }
 
-
     public UpdateEmployeeRequest createBodyForUpdate() {
         String lastName = faker.name().lastName();
         String email = faker.internet().emailAddress();

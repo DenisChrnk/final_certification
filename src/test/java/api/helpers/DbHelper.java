@@ -7,7 +7,6 @@ import io.qameta.allure.Step;
 
 import java.sql.*;
 
-
 public class DbHelper {
 
     private Connection connection;

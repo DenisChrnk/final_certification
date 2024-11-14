@@ -16,8 +16,6 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import api.extendClasses.*;
-import api.models.*;
 
 import java.io.FileInputStream;
 import java.io.IOException;
